@@ -12,3 +12,10 @@
 
 ## Notebooks
 - `week1_setup.ipynb` — environment setup, featureCounts, Figure 4D/5B reproduction
+
+## Results (Week 1)
+- Cell 33: Figure 4D-like scatter, n=9145, Pearson r=+0.45
+- Cell 37: Figure 5B-like, colored by localization
+  - integral membrane: median log2(rden_change) = +0.401 (n=1211)
+  - nucleus: -0.458 (n=2682), cytoplasm: -0.354 (n=1186)
+- Integral membrane proteins show strongest translation upregulation upon LIN28A Knockdown.
