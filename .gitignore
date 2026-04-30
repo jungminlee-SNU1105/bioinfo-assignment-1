@@ -1,0 +1,31 @@
+# Data files (never commit)
+*.bam
+*.bai
+*.gtf
+*.gtf.gz
+*.tar
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+binfo1-datapack1/
+binfo1-datapack1.tar
+work/
+
+# Jupyter
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# Outputs
+read-counts.txt
+read-counts.txt.summary
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
